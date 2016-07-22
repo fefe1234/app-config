@@ -4,3 +4,17 @@ spring:
       server:
         git:
           uri: https://github.com/fefe1234/app-config.git
+		  
+		  
+security:
+  basic:
+    enabled: false
+
+management:
+  security:
+    enabled: false
+
+logging:
+  level:
+    io:
+      pivotal: DEBUG
